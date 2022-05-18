@@ -1,0 +1,35 @@
+.content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chooseCity {
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border: 3px solid black;
+
+}
+
+.weatherPic {
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+body {
+    background: linear-gradient(to right, #c0c0aa, #1cefff);
+}
+
+.valuesForm {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+
+.unitsButtons {
+    margin-top: 10px;
+}
